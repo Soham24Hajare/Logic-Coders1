@@ -1,0 +1,3 @@
+order_id,customer_key,farmers_key,food_key,fphoneno,fname,femail,fadd,fusername,fpassword,cus_name,cus_add,cus_email,cus_phoneno,cus_username,cus_password,foodname,foodquantity,food_id,fa_email,foodprice
+2,vansh@gmail.com,soham@ves.ac.in,1101,9999111111,soham,soham@ves.ac.in,thane,soham,soham123,vansh,thane,vansh@gmail.com,9999998852,vansh,vansh123,banana,"10 dozens",1101,soham@ves.ac.in,2500
+1,rohan@gmail.com,rajesh@gmail.com,1111,9999999999,rajesh,rajesh@gmail.com,india,rajesh,rajesh123,rohan,dadar,rohan@gmail.com,1100221122,rohan,rohan123,carrot,"10 kg",1111,rajesh@gmail.com,1000
