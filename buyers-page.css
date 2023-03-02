@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .home2 {
+    position: absolute;
+    top: 11px;
+    left: 34px;
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .buyer2,
+  .home-frame {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .home-frame {
+    background-color: var(--color-white);
+    top: 51px;
+    left: 609px;
+    width: 111px;
+    height: 41px;
+    overflow: hidden;
+  }
+  .buyer2 {
+    background-color: transparent;
+    top: 11px;
+    left: 35px;
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+  }
+  .buyer-frame {
+    background-color: var(--color-white);
+    top: 51px;
+    left: 985px;
+    width: 111px;
+    height: 41px;
+    overflow: hidden;
+  }
+  .admin-frame,
+  .admin2,
+  .buyer-frame {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .admin2 {
+    background-color: transparent;
+    top: 11px;
+    left: 33px;
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+  }
+  .admin-frame {
+    background-color: var(--color-white);
+    top: 51px;
+    left: 1173px;
+    width: 111px;
+    height: 41px;
+    overflow: hidden;
+  }
+  .farmer2 {
+    position: absolute;
+    top: 11px;
+    left: 30px;
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .farmer-frame {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    position: absolute;
+    top: 51px;
+    left: 797px;
+    width: 111px;
+    height: 41px;
+    overflow: hidden;
+  }
+  .farmigo2 {
+    position: absolute;
+    top: 43px;
+    left: 28px;
+    font-weight: 800;
+    display: inline-block;
+    width: 376px;
+    height: 75px;
+  }
+  .buyers-page-child,
+  .instance-container {
+    position: absolute;
+    left: 0;
+    width: 1440px;
+    overflow: hidden;
+  }
+  .instance-container {
+    top: 0;
+    background: linear-gradient(180deg, #a9dca1, rgba(169, 220, 161, 0));
+    height: 142px;
+  }
+  .buyers-page-child {
+    border: 0;
+    top: 255px;
+    height: 510px;
+    background-image: url(./public/frame-33@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .image-14-icon {
+    position: absolute;
+    top: 29px;
+    left: 973px;
+    width: 32px;
+    height: 31.62px;
+    object-fit: cover;
+  }
+  .farmigo3,
+  .image-15-icon {
+    position: absolute;
+    top: 28px;
+    left: 1017px;
+  }
+  .image-15-icon {
+    top: 24px;
+    left: 1175px;
+    width: 42px;
+    height: 34.13px;
+    object-fit: cover;
+  }
+  .connect-us-on,
+  .farmigo12 {
+    position: absolute;
+    top: 28px;
+    left: 1220px;
+  }
+  .connect-us-on {
+    top: 25px;
+    left: 765px;
+    font-size: var(--font-size-base);
+    color: rgba(67, 108, 64, 0.9);
+  }
+  .image-14-parent {
+    position: absolute;
+    top: 942px;
+    left: -22px;
+    background-color: rgba(141, 136, 136, 0.28);
+    width: 1462px;
+    height: 78px;
+    overflow: hidden;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-jacques-francois);
+  }
+  .buyers-page {
+    position: relative;
+    background-color: #e6f0e3;
+    width: 100%;
+    height: 1020px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-2xl);
+    color: var(--color-darkolivegreen-100);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .farmigo2 {
+      opacity: 0;
+    }
+    .farmigo2.animate {
+      animation: 1s ease 0s 1 normal forwards fade-in;
+    }
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  
