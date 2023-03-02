@@ -1,0 +1,29 @@
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-jacques-francois: "Jacques Francois";
+  
+    /* font sizes */
+    --font-size-2xs: 15px;
+    --font-size-xs: 18px;
+    --font-size-sm: 22px;
+    --font-size-base: 25px;
+    --font-size-lg: 30px;
+    --font-size-xl: 40px;
+    --font-size-2xl: 65px;
+  
+    /* Colors */
+    --color-darkolivegreen-100: #436c40;
+    --color-white: #fff;
+    --color-forestgreen: #42ab31;
+    --color-gray-100: #fafafa;
+    --color-black: #000;
+    --color-dimgray-100: #6f6161;
+    --color-dimgray-200: rgba(117, 97, 97, 0.1);
+  
+    /* border radiuses */
+    --br-sm: 10px;
+    --br-md: 18px;
+    --br-lg: 30px;
+  }
+  
